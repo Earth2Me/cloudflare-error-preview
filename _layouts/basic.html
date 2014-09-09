@@ -7,6 +7,12 @@
 		<title>Preview: {{ page.template }}</title>
 	</head>
 	<body>
-		::{{ page.template }}::
+
+<!-- BEGIN: {{ template }} -->
+::{{ template }}::
+<!-- END: {{ template }} -->
+
+{{content}}
+
 	</body>
 </html>
